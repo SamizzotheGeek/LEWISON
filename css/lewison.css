@@ -1,0 +1,112 @@
+html.sr .load-hidden {visibility: hidden;}
+html,body {background-color:white!important; }
+/*header {position: fixed !important; z-index: 9; top: 0; left: 0;}*/
+.top-bar {
+    background-color: red;max-height: 50px;min-height: 30px; display: flex; max-width: 100%;
+}
+.top-bar span {
+    flex:1;padding-left: 30px;color: white; font-weight: bolder;
+}
+.top-bar span a {padding-right: 1em;}
+.main-bar {
+    background-color: white; background-image: url(../img/bg.jpg);max-height: 200px !important;
+}
+a {
+    text-decoration: none ; color: rgb(255, 255, 255) !important; font-size: 18px;
+}
+.bg {display: flex; border-bottom: 10px solid rgb(92, 7, 7); background-color: white; }
+.logo {
+    flex: 1; 
+}
+.drop-menu {display: none;}
+.menu {flex:9; margin-top: 30px;}
+ .dropbtn {
+     background-color: white;
+     color: black;
+     font-weight: bolder !important;
+     padding: 5px 10px 5px 10px;
+     font-size: 16px;
+     border: none;
+     margin:19px;
+ }
+ 
+ .dropdown  {
+     position: relative;
+     display: inline-block; font-weight: bolder !important;
+ }
+ 
+ .dropdown-content {
+     display: none;
+     position: absolute;
+     background-color: rgba(120,120,120,1);
+     min-width: 160px;
+     box-shadow: 0px 8px 14px 0px rgba(0,0,0,0.3);
+     z-index: 1;
+
+ }
+
+ .dropdown-content a {
+     color: black;
+     padding: 8px 2px;
+     text-decoration: none !important;
+     display: block;
+ }
+ 
+ .dropdown-content a:hover {background-color: #ddd; color: black !important;}
+ 
+ .dropdown:hover .dropdown-content {
+     display: block;
+ }
+ 
+ .dropdown .dropbtn:hover, .dropbtn a:hover {
+     color: blue !important;
+     
+ }
+ .dropbtn a{text-decoration: none !important; color: black !important; font: bolder;}
+ main {padding: 0;padding-top: 2px;}
+ .slider {position: relative;top : 1px; border:2px solid transparent);
+    text-align : center !important; border-radius: 10px; max-width: 100%;}
+ .slider img {max-width: 100% !important;min-width: 100%;  max-height: 500px;}
+ .completed  {position: relative; top: 20px; margin-top: 25px; display: flex; min-width: 100%; flex-wrap: wrap; 
+} 
+.gal, .gal1, .gal2 {flex: 1;}
+.completed img {margin: 3px; border: solid silver 3px; border-radius: 1px; width: 95%}
+.gal img:hover, .gal1 img:hover, .gal2 img:hover {transform:scale(1.02);}
+.slider span {background-color: rgba(46, 33, 33, 0.6); min-width:40px !important;
+     min-height: 35px !important; 
+     font-weight: bolder !important; font-size: 15px;}
+#back {position: absolute;float: left; top: 50%;font-weight: bolder !important;}
+#forward {position: absolute;float: right; top: 50%; right:0px;font-weight: bolder;}
+ footer {margin-top: 20px;}
+.copyright {background-color: #444; color: white; font-weight: bold; text-align: center;}
+.service-pad {display: flex; background-color: rgba(120,120,120,0.6); color: rgb(0, 0, 0);}
+
+.child {flex: 1;}
+
+/*specific to contact form*/
+#heading { min-width: 100%; min-height: 100px; text-align: center; background-color: gray;font-weight: bolder; 
+padding-top: 30px;}
+#heading2 {font-weight;}
+#label {color: red;}
+#contact-form {width: 40%; display: flex; flex-direction: column; background-color: rgba(120, 120, 120, 0.3);}
+.form {flex:1; margin: 10px; display: flex}
+.form * {flex: 1;}
+#send {background-color: green; color: white; max-width:50%; min-width: 10%; cursor: pointer; 
+     border-radius: 8px; font-weight: bolder; }
+
+     /*media tags */
+     @media (max-width:600px) {
+         .service-pad {display: flex; flex-direction: column !important;}
+         .child {   flex: 1; padding-top: 2em;}
+         .completed {display: flex; flex-direction: column;}\
+         header {background-color: red;}
+         .bg {background-color: rgb(220,220,220); max-height: 100px;}
+         .top-bar {display: inline-block; min-height: 50px;  }
+         .top-bar span {padding-left: 0px !important; font-size: 1em;}
+         .menu {display:none; max-width: 80%; min-width: 80%; background-color: white; box-shadow: gray 0em 3em 4em 0em;
+                 position: absolute; right: 1em; top: 6em; z-index: 9; flex-direction: column;  
+        }
+         .drop-menu {display: block; position: absolute; right: 1em; top: 5em;}
+
+         .drop-menu:
+     }
