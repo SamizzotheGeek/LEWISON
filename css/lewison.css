@@ -101,7 +101,8 @@ padding-top: 30px;}
          .service-pad {display: flex; flex-direction: column !important;}
          .child {   flex: 1; padding-top: 2em;}
          .completed {display: flex; flex-direction: column;}
-         header {background-color: red;}
+         header {background-color: red; position: -webkit-sticky; position: fixed; z-index: 9;}
+         main {position: relative ; top: 10em;}
          .bg {background-color: rgb(220,220,220); max-height: 100px;}
          .top-bar {display: inline-block; min-height: 50px;  }
          .top-bar span {padding-left: 0px !important; font-size: 1em;}
@@ -109,6 +110,9 @@ padding-top: 30px;}
                  position: absolute; right: 1em; top: 6em; z-index: 9; flex-direction: column;  
         }
          .drop-menu {display: block; position: absolute; right: 1em; top: 5em;}
+         .dropbtn {margin: 0.5em !important; padding: 0px; max-height: 3em; }
+         .dropdown {border: 2px solid brown;}
+         #close {display: none;}
 
          
      }
