@@ -64,7 +64,7 @@ a {
  }
  .dropbtn a{text-decoration: none !important; color: black !important; font: bolder;}
  main {padding: 0;padding-top: 2px;}
- .slider {position: relative;top : 1px; border:2px solid transparent);
+ .slider {position: relative;top : 1px; border:2px solid transparent;
     text-align : center !important; border-radius: 10px; max-width: 100%;}
  .slider img {max-width: 100% !important;min-width: 100%;  max-height: 500px;}
  .completed  {position: relative; top: 20px; margin-top: 25px; display: flex; min-width: 100%; flex-wrap: wrap; 
@@ -82,11 +82,13 @@ a {
 .service-pad {display: flex; background-color: rgba(120,120,120,0.6); color: rgb(0, 0, 0);}
 
 .child {flex: 1;}
+.desc {background-color: #ecebeb; justify-content: space-between; margin-right: 1.5em;
+}
 
 /*specific to contact form*/
 #heading { min-width: 100%; min-height: 100px; text-align: center; background-color: gray;font-weight: bolder; 
 padding-top: 30px;}
-#heading2 {font-weight;}
+#heading2 {font-weight:bold}
 #label {color: red;}
 #contact-form {width: 40%; display: flex; flex-direction: column; background-color: rgba(120, 120, 120, 0.3);}
 .form {flex:1; margin: 10px; display: flex}
@@ -98,7 +100,7 @@ padding-top: 30px;}
      @media (max-width:600px) {
          .service-pad {display: flex; flex-direction: column !important;}
          .child {   flex: 1; padding-top: 2em;}
-         .completed {display: flex; flex-direction: column;}\
+         .completed {display: flex; flex-direction: column;}
          header {background-color: red;}
          .bg {background-color: rgb(220,220,220); max-height: 100px;}
          .top-bar {display: inline-block; min-height: 50px;  }
@@ -108,5 +110,5 @@ padding-top: 30px;}
         }
          .drop-menu {display: block; position: absolute; right: 1em; top: 5em;}
 
-         .drop-menu:
+         
      }
