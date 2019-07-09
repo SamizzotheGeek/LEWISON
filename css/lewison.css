@@ -19,7 +19,7 @@ a {
     flex: 1; 
 }
 .drop-menu {display: none;}
-.menu {flex:9; margin-top: 30px;}
+.menu {flex:9 !important; margin-top: 30px;}
  .dropbtn {
      background-color: white;
      color: black;
