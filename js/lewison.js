@@ -1,6 +1,5 @@
 var menuButton = document.getElementById('drop-menu');
 var menu = document.getElementById('menu');
-var close = document.getElementById("close");
 var bar = document.getElementById("bar");
 
 function showMenu(){
