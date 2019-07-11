@@ -86,7 +86,7 @@ a {
 }
 
 /*specific to contact form*/
-#heading { min-width: 100%; min-height: 100px; text-align: center; background-color: gray;font-weight: bolder; 
+#heading { min-width: 100%; min-height: 100px;color: white; text-align: center; background-color: gray;font-weight: bolder; 
 padding-top: 30px;}
 #heading2 {font-weight:bold}
 #label {color: red;}
@@ -103,6 +103,7 @@ padding-top: 30px;}
          .completed {display: flex; flex-direction: column;}
          header {background-color: red; position: -webkit-sticky; position: fixed; z-index: 9;}
          main {position: relative ; top: 10em;}
+         footer {position: relative ; top: 10em;}
          .bg {background-color: rgb(220,220,220); max-height: 100px;}
          .top-bar {display: inline-block; min-height: 50px;  }
          .top-bar span {padding-left: 0px !important; font-size: 1em;}
