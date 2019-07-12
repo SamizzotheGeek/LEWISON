@@ -4,12 +4,17 @@
     <meta charset="utf-8">
     <meta Keyword="lewison, builders, contractors, design">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Lewison Builders and Contractors Limited is a user trade name for Building and Construction which is a Kenyan based consultancy firm registered
+    under Lewison Group Limited for structural, civil, mechanical, electrical, environmental, water and sanitation engineering. The firm has been operating
+    for several years and has earned a reputation for innovation, quality and cost effectiveness in projects ranging from high rise office and residential
+    buildings, commercial development, public infrastructure development other infrastructure.">
     <title>LEWISON BUILDERS AND CONTRACTORS</title>
     <link rel="stylesheet" type="text/css" href="css/lewison.css">
     <link rel="stylesheet" type="text/css" href="css\bootstrap.min.css" media="all">
-    <script src="js\jquery-3.3.1.min.js"></script>
-    <script src="js\bootstrap.min.js"></script>
+    <link rel="stylesheet" href="fa\css\all.min.css">
+   
     <script src="js\scrollreveal.js"></script>
+    
     <link rel="icon" href="img/lewison.png">
 </head>
 <body>
@@ -17,13 +22,14 @@
         <div class="top-bar">
             <span>| 0717944017 </span> <span>| info@lewisbuilders.com </span>
             <span> | Eagle centre 2nd floor</span> <span>| 
-              <a href = "https://www.facebook.com/Lewisonbuilders/" target = "_blank"> <img src = "img\facebook icon.png" width="25px" height="25px"/></a>
-              <a href = "https://twitter.com/Lewisongroup"target = "_blank"> <img src = "img\twitter icon.png" width="25px" height="25px"/></a> </span>
+              <a href = "https://www.facebook.com/Lewisonbuilders/" target = "_blank"><i class="fab fa-facebook-f"></i> </a>
+              <a href = "https://twitter.com/Lewisongroup"target = "_blank"> <i class="fab fa-twitter"></i> </a> </span>
             </div>
         <div class="main-bar">
             <div class="bg">
-            <div class="logo"><img src="img/lewison.png" heigh="100px" width="100px"></div>
-            <div class="menu">
+            <div class="logo"><a href="index.html"><img src="img/lewison.png" heigh="100px" width="100px"></a></div>
+            <button class="drop-menu" id="drop-menu"><i class="fas fa-bars fa-2x" id= "bar"><i class="fas fa-times " id="close"></i></i></button>
+            <div class="menu" id="menu">
                 <div class="dropdown">
             <button class="dropbtn" >About Us <span style="padding: 8px; font-weight: bolder">&#65088; </span></button>
             <div class="dropdown-content">
@@ -75,42 +81,71 @@
             </div>
         </div></div>
     </header>
+    <!--main-->
+    <main>
+      <div class="profile jumbotron">
+        <h1>WHO WE ARE</h1>
+        <span id="describe">Lewison Builders and Contractors Limited is a user trade name for Building
+            and Construction which is a Kenyan based consultancy firm registered
+            under Lewison Group Limited for structural, civil, mechanical, electrical,
+            environmental, water and sanitation engineering. The firm has been operating
+            for several years and has earned a reputation for innovation, quality and
+            cost effectiveness in projects ranging from high rise office and residential
+            buildings, commercial development, public infrastructure development other
+            infrastructure.</span><br><br>
+            <span class="describe">
+                The scope of engagement encompasses feasibility studies & concept
+                development, preliminary & detailed design, project planning & management,
+                contract documentation and
+                tendering, construction supervision and contract administration.
+                We utilize our experience, capabilities, resources and diversity of competence
+                developed through a wide spectrum of projects successfully undertaken to
+                give our clients and consultants their most desired results.
+            </span>
+      </div>
+      <div class="about jumbotron">
+        <div class="mission">
 
-
-    <footer>
-        <div class="service-pad">
-            <div class="child">
-              <h4>Reach Us</h4>
-              <span> <img src="img\call.png" height="30px" width="30px"/> 0717944017 </span><hr>
-               <span> <img src="img\mail-flat.png" height="30px" width="30px"/> info@lewisbuilders.com </span><hr>
-              <span> <img src="img\loc.png" height="30px" width="30px"/> Eagle centre 2nd floor, Naivasha</span><br>
-            </div>
-            <div class="child">
-              <h4>Our Services</h4>
-              <ul><li>General Building and Construction</li><hr>
-                  <li>Architectural Designs</li><hr>
-                  <li>Construction Management</li>
-              </ul>
-            </div>
-            <div class="child">
-              <h4>Our Approach</h4>
-              <span>Full Contract</span><hr>
-              <span>Labour Contract</span><hr>
-              <span>Project Supervision</span>
-            </div>
-            <div class="child">
-              <h4>Follow us </h4>
-              <a href = "https://www.facebook.com/Lewisonbuilders/" target = "_blank"> <img src = "img\facebook icon.png" width="25px" height="25px"/></a><hr>
-              <a href = "https://twitter.com/Lewisongroup"target = "_blank"> <img src = "img\twitter icon.png" width="25px" height="25px"/></a>
-            </div>
         </div>
-        <div class="copyright"> &copy; 2019 All rights researved | LEWISON BUILDERS AND CONTRACTORS | Designed by GISIT media </div>
-      </footer>
-      <script>
-       ScrollReveal().reveal('.gal', {delay:500});
-       ScrollReveal().reveal('.gal1',{delay:750});
-       ScrollReveal().reveal('.gal2',{delay:1000})
-       ScrollReveal().clean('.gal')
-       </script>
+        <div class="vision">
+
+        </div>
+        <div class="values">
+
+        </div>
+      </div>
+    </main>
+
+    <!--footer-->
+    <footer>
+      <div class="service-pad">
+          <div class="child">
+            <h4>Reach Us</h4>
+            <span> <img src="img\call.png" height="30px" width="30px"/> 0717944017 </span><hr>
+             <span> <img src="img\mail-flat.png" height="30px" width="30px"/> info@lewisbuilders.com </span><hr>
+            <span> <img src="img\loc.png" height="30px" width="30px"/> Eagle centre 2nd floor, Naivasha</span><br>
+          </div>
+          <div class="child">
+            <h4>Our Services</h4>
+            <ul><li>General Building and Construction</li><hr>
+                <li>Architectural Designs</li><hr>
+                <li>Construction Management</li>
+            </ul>
+          </div>
+          <div class="child">
+            <h4>Our Approach</h4>
+            <span>Full Contract</span><hr>
+            <span>Labour Contract</span><hr>
+            <span>Project Supervision</span>
+          </div>
+          <div class="child">
+            <h4>Follow us </h4>
+            <a href = "https://www.facebook.com/Lewisonbuilders/" target = "_blank"> <img src = "img\facebook icon.png" width="25px" height="25px"/></a><hr>
+            <a href = "https://twitter.com/Lewisongroup"target = "_blank"> <img src = "img\twitter icon.png" width="25px" height="25px"/></a>
+          </div>
+      </div>
+      <div class="copyright"> &copy; 2019 All rights researved | LEWISON BUILDERS AND CONTRACTORS | Designed by David Kimani WAMSO media </div>
+    </footer>
+    <script src="js\lewison.js"></script>
   </body>
-  </html>
+</html>
