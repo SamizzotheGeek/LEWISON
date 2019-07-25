@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html class="sr">
 <head>
     <meta charset="utf-8">
@@ -82,6 +82,40 @@
         </div></div>
     </header>
     <!--main-->
+    <main>
+        <h1 id="heading">Architectural Designs</h1>
+        <div class="intro"><div class="jumbotron service">
+            <div class="dc">             
+              Our talented team of architects offer amazing plans for residential,commercial to industrial buildings.
+              Whatever your budget is, we ensure that you get a building plan that favor your sense of style.                
+            </div>
+          </div>
+          <div class="leftimg"><img src="img\render7.jpg" alt="3D design Appartment" width="100%"></div>
+        </div>
+        <div class="more">
+          <div class = "completed"> <span class="gal load-hidden"><img src = "img\render1.jpg"  height="260px"/>
+            <div class="desc" >desctiption goes here </div>
+        </span>
+          <span class="gal1 load-hidden"><img src = "img\render2.jpg" height="260px"/>
+            <div class="desc"> Image text here</div>
+          </span> 
+          <span class="gal2 load-hidden"><img src = "img\render4.jpg" height="260px"/>
+            <div class="desc" >desctiption goes here </div></span></div>
+            
+            <div class = "completed"> <span class="gal load-hidden"><img src = "img\render7.jpg" width="368px" height="260px"/> 
+            <div class="desc" >desctiption goes here </div></span>
+            <span class="gal1 load-hidden"><img src = "img\render9.jpg" width="368px" height="260px"/>
+              <div class="desc" >desctiption goes here </div></span> 
+            <span class="gal2 load-hidden"><img src = "img\render10.jpg" width="368px" height="260px"/>
+              <div class="desc" >desctiption goes here </div></span></div>
+            <div class = "completed"> <span class="gal load-hidden"><img src = "img\render13.jpg" width="368px" height="260px"/> 
+              <div class="desc" >desctiption goes here </div></span>
+              <span class="gal1 load-hidden"><img src = "img\render11.jpg" width="368px" height="260px"/>
+                <div class="desc" >desctiption goes here </div></span> 
+              <span class="gal2 load-hidden"><img src = "img/render8.jpg" width="368px" height="260px"/>
+                <div class="desc" >desctiption goes here </div></span></div></div>
+         
+    </main>
 
     <!--footer-->
     <footer>
@@ -107,9 +141,19 @@
           </div>
           <div class="child">
             <h4>Follow us </h4>
-            <a href = "https://www.facebook.com/Lewisonbuilders/" target = "_blank"> <img src = "img\facebook icon.png" width="25px" height="25px"/></a><hr>
-            <a href = "https://twitter.com/Lewisongroup"target = "_blank"> <img src = "img\twitter icon.png" width="25px" height="25px"/></a>
+            <a href = "https://www.facebook.com/Lewisonbuilders/" target = "_blank"> <i class="fab fa-facebook fa-2x"></i></a>
+            <a href = "https://twitter.com/Lewisongroup"target = "_blank"><i class="fab fa-twitter fa-2x"></i></a>
           </div>
       </div>
       <div class="copyright"> &copy; 2019 All rights researved | LEWISON BUILDERS AND CONTRACTORS | Designed by David Kimani WAMSO media </div>
     </footer>
+    <script async>
+        ScrollReveal().reveal('.gal', {delay:500});
+        ScrollReveal().reveal('.gal1',{delay:750});
+        ScrollReveal().reveal('.gal2',{delay:1000})
+        ScrollReveal().clean('.gal')
+        </script>
+        <script src="js\lewison.js"></script>
+        
+   </body>
+   </html>

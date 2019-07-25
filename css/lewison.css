@@ -62,10 +62,11 @@ a {
  }
  .dropbtn a{text-decoration: none !important; color: black !important; font: bolder;}
  main {padding: 0;padding-top: 2px;}
- .slider {position: relative;top : 1px; border:2px solid transparent;
+ .slider {position: sticky;top : 1px; border:2px solid transparent;
     text-align : center !important; border-radius: 10px; max-width: 100%;}
  .slider img {max-width: 100% !important;min-width: 100%;  max-height: 800px;}
- .completed  {position: relative; top: 20px; margin-top: 25px; display: flex; width: 98%; flex-wrap: wrap; margin: 2%;
+ .completed  {position: relative; top: 20px; padding: 1em 5em 1em 5em; display: flex; width: 100%; flex-wrap: wrap;
+    background-color: white; z-index: 1;
 } 
 .ad {background-color: bisque; color: brown; font-weight: bold; font-size:  2em; position: relative; right: 0px !important;}
 .gal, .gal1, .gal2 {flex: 1;}
@@ -87,7 +88,10 @@ a {
 .info {flex: 1; max-width: 30% !important; min-width: 30% !important;}
 .info img {width: 90% !important; margin: 2em;}
 pre .fab {color: grey;}
-
+.service {width: 50%; z-index: 2;}
+.intro {display: flex; margin: 2em;}
+.rightimg {position: fixed; right: 0px; float: right; z-index: 0; width: 50%;}
+#services {padding: 2.5em 0 0 4em; color: maroon; }
 
 /*specific to contact form*/
 #heading { min-width: 100%; min-height: 100px;color: white; text-align: center; background-color: rgb(73, 17, 17);font-weight: bolder; 
@@ -108,7 +112,7 @@ padding-top: 30px; position: relative; top: 10px;}
      @media (max-width:768px) {
          .service-pad {display: flex; flex-direction: column !important;}
          .child {   flex: 1; padding-top: 2em;}
-         .completed {display: flex; flex-direction: column;}
+         .completed {display: flex; flex-direction: column; padding: 2em;}
          header {background-color: red; position: -webkit-sticky; position: fixed; z-index: 9;top:0; min-width: 100%}
          main, .ad {position: relative ; top: 10em;}
          footer {position: relative ; top: 10em;}
@@ -123,6 +127,8 @@ padding-top: 30px; position: relative; top: 10px;}
          .dropdown {border: 2px solid brown;}
          .about {flex-direction: column;}
          .info{max-width: 90% !important; min-width: 30% !important;}
+         .intro{display: block;}
+         .service {width: 100%;}
          
          #close {display: none;}
          /*soecufic for contact*/
