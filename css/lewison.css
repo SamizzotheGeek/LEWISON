@@ -80,7 +80,7 @@ a {
  footer {margin-top: 20px;}
 .copyright {background-color: #444; color: white; font-weight: bold; text-align: center;}
 .service-pad {display: flex; background-color: rgba(119, 112, 90, 0.6); color: rgb(0, 0, 0);}
-.blog {align-content: center; margin: 0 15%; font-size: 1.5em; }
+.blog {align-content: center; margin: 0 15%; }
 .child {flex: 1;}
 .desc {background-color: #ecebeb; justify-content: space-between; margin-right: 1.5em;
 }
