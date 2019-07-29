@@ -69,10 +69,12 @@ a {
  .completed  {position: relative; top: 20px; padding: 1em 5em 1em 5em; display: flex; width: 100%; flex-wrap: wrap;
     background-color: white; z-index: 1;
 } 
+[class="carousel-caption"] h2 {background-color: brown; width: 30%; height: 3em; margin: auto; padding: 1em;}
+[class="carousel-caption"] p {background-color: coral; width: 40%; height: 2.5em; padding: 0.5em; margin: auto;}
+[class="status"] {background-color: darkviolet; font-size: 1em; position: absolute; right: 1.5em; top: 0.5em; font-weight: bold; color: white;}
 .ad {background-color: bisque; color: brown; font-weight: bold; font-size:  2em; position: relative; right: 0px !important;}
-.gal, .gal1, .gal2 {flex: 1;}
+.gal, .gal1, .gal2 {flex: 1; position: relative;}
 .completed img {margin: 3px; border: solid transparent 3px; border-radius: 1px; width: 95%}
-.gal img:hover, .gal1 img:hover, .gal2 img:hover {transform:scale(1.02);}
 .slider span {background-color: rgba(46, 33, 33, 0.6); min-width:40px !important;
      min-height: 35px !important; 
      font-weight: bolder !important; font-size: 15px;}
@@ -94,7 +96,7 @@ pre .fab {color: grey;}
 .service {width: 50%; z-index: 2;}
 .intro {display: flex; margin: 2em;}
 .rightimg {position: fixed; right: 0px; float: right; z-index: 0; width: 50%;}
-#services {padding: 2.5em 0 0 4em; color: maroon; }
+#services {padding: 1.5em 0 0 5em; color: maroon; }
 
 /*specific to contact form*/
 #heading { min-width: 100%; min-height: 100px;color: white; text-align: center; background-color: rgb(73, 17, 17);font-weight: bolder; 
