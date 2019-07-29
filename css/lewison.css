@@ -88,6 +88,7 @@ a {
 .desc {background-color: #ecebeb; justify-content: space-between; margin-right: 1.5em;
 }
 [alt="Build or buy"] {height: 12em;}
+.blog [alt="Build or buy"] {height: 30em;}
 .about, .posts {display: flex; justify-content: space-between;flex-wrap: wrap;}
 .posts {padding: 0 5em 0 6em !important;}
 .info {flex: 1; max-width: 30% !important; min-width: 30% !important;}
@@ -130,10 +131,13 @@ padding-top: 30px; position: relative; top: 10px;}
          .drop-menu {display: block; position: absolute; right: 1em; top: 5em;}
          .dropbtn {margin: 0.5em !important; padding: 0px; max-height: 3em; }
          .dropdown {border: 2px solid brown;}
-         .about {flex-direction: column;}
+         .about, .posts {flex-direction: column;}
+         .posts {padding: 2em !important;}
          .info{max-width: 90% !important; min-width: 30% !important;}
          .intro{display: block;}
          .service {width: 100%;}
+         .blog {margin: 0 2%;}
+         img, .blog [alt="Build or buy"] {height: auto;}
          
          #close {display: none;}
          /*soecufic for contact*/
