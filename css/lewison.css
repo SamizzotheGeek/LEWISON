@@ -85,8 +85,9 @@ a {
 .service-pad {display: flex; background-color:maroon; color: white;padding-top: 10px;}
 .blog {align-content: center; margin: 0 15%; }
 .child {flex: 1;}
-.desc {background-color: #ecebeb; justify-content: space-between; margin-right: 1.5em;
+.desc {background-color: #ecebeb; justify-content: space-between; margin-right: 1.5em; color: coral;
 }
+[alt="our project"] {height: 20em;}
 [alt="Build or buy"] {height: 12em;}
 .blog [alt="Build or buy"] {height: 30em;}
 .about, .posts {display: flex; justify-content: space-between;flex-wrap: wrap;}
