@@ -65,13 +65,13 @@ a {
  main {padding: 0;padding-top: 2px;}
  .slider {position: sticky;top : 1px; border:2px solid transparent;
     text-align : center !important; border-radius: 10px; max-width: 100%;}
- .slider img {max-width: 100% !important;min-width: 100%;  max-height:600px !important;}
- .completed  {position: relative; top: 20px; padding: 1em 5em 1em 5em; display: flex; width: 100%; flex-wrap: wrap;
+ .slider img {max-width: 100% !important;min-width: 100%;  max-height:700px !important;}
+ .completed  {position: relative; top: 20px; padding: 1em 10em 1em 10em; display: flex; width: 100%; flex-wrap: wrap;
     background-color: white; z-index: 1;
 } 
-[class="carousel-caption"] h2 {background-color: brown; width: 30%; height: 3em; margin: auto; padding: 1em;}
-[class="carousel-caption"] p {background-color: coral; width: 40%; height: 2.5em; padding: 0.5em; margin: auto;}
-[class="status"] {background-color: darkviolet; font-size: 1em; position: absolute; right: 1.5em; top: 0.5em; font-weight: bold; color: white;}
+/*[class="carousel-caption"] h2 {background-color: brown; width: 30%; height: 3em; margin: auto; padding: 1em;}
+[class="carousel-caption"] p {background-color: coral; width: 40%; height: 2.5em; padding: 0.5em; margin: auto;}*/
+[class="status"] {background-color: maroon; font-size: 1em; position: absolute; right: 1.5em; top: 0.5em; font-weight: bold; color: white; padding: 6px; border-radius: px;}
 .ad {background-color: bisque; color: brown; font-weight: bold; font-size:  2em; position: relative; right: 0px !important;}
 .gal, .gal1, .gal2 {flex: 1; position: relative;}
 .completed img {margin: 3px; border: solid transparent 3px; border-radius: 1px; width: 95%}
@@ -85,7 +85,7 @@ a {
 .service-pad {display: flex; background-color:maroon; color: white;padding-top: 10px;}
 .blog {align-content: center; margin: 0 15%; }
 .child {flex: 1;}
-.desc {background-color: #ecebeb; justify-content: space-between; margin-right: 1.5em; color: coral;
+.desc {background-color: #ecebeb; justify-content: space-between; margin-right: 1.5em; color: #3e0e1e;
 }
 [alt="our project"] {height: 20em;}
 [alt="Build or buy"] {height: 12em;}
