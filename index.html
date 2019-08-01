@@ -145,14 +145,14 @@
           
         </div>
         <!--more items explaining the company-->
-        <div class = "completed"> <span class="gal load-hidden"><span class="status">Completed</span><img src = "img\building1.jpg"  height="260px"/>
-            <div class="desc" ><h3>3 Bedroom Maisonette</h3> All ensuite with spacious balcony</div>
+        <div class = "completed"> <span class="gal load-hidden"><span class="status">Completed</span><img src = "img\completed.jpg"  height="260px"/>
+            <div class="desc" ><h3>4 Bedroom Maisonette</h3> All ensuite with detached servant quarters</div>
         </span>
           <span class="gal1 load-hidden"><span class="status">Ongoing</span> <img src = "img\com.jpg" height="260px"/>
             <div class="desc"><h3>Hotel Block</h3>  </div>
           </span> 
-          <span class="gal2 load-hidden"><span class="status">Ongoing</span><img src = "img\commercial.jpg" height="260px"/>
-            <div class="desc" ><h3>1 Bedroom Apartment block</h3>with commercial outlets on ground floor </div></span></div>
+          <span class="gal2 load-hidden"><span class="status">Ongoing</span><img src = "img\ongoing.jpg" height="260px"/>
+            <div class="desc" ><h3>4 Bedroom Maisonette</h3> All ensuite with spacious balcony</div></span></div>
             
             <div class = "completed"> <span class="gal load-hidden"><span class="status">completed</span><img src = "img\maisonette.jpg" width="368px" height="260px"/> 
             <div class="desc" ><h3>4 Bedroom Maisonette </h3> All ensuite with entry veranda </div></span>
@@ -161,11 +161,11 @@
             <span class="gal2 load-hidden"><span class="status">ongoing</span><img src = "img\ongoing.jpg" width="368px" height="260px"/>
               <div class="desc" ><h3>4 bedroom Maisonette</h3>All ensuite with a spacious balcony </div></span></div>
             <div class = "completed"> <span class="gal load-hidden"><span class="status">completed</span><img src = "img\bungalow1.jpg" width="368px" height="260px"/> 
-              <div class="desc" ><h3>3 Bedroom Bungalow</h3>Master ensuite and open kitchen floor plan </div></span>
+              <div class="desc" ><h3>4 Bedroom Bungalow</h3>Master ensuite and open kitchen floor plan </div></span>
               <span class="gal1 load-hidden"><span class="status">ongoing</span><img src = "img\mixed.jpg" width="368px" height="260px"/>
                 <div class="desc" ><h3>2 Bedroom Apartmet Block</h3> With water storage tanks, perimeter wall and a balcony </div></span> 
               <span class="gal2 load-hidden"><span class="status">Ongoing</span><img src = "img\maisonette1.jpg" width="368px" height="260px"/>
-                <div class="desc" ><h3>3 Bedroom Bungalow</h3> Master ensuite and detached servant quarters </div></span></div>
+                <div class="desc" ><h3>4 Bedroom Bungalow</h3> Master ensuite and detached servant quarters </div></span></div>
     </main>
     <section class="service-pad">
       <div class="general">
@@ -176,7 +176,12 @@
         
       </div>
     </section>
-
+    <div id="popup">
+        <span class="pop"><button class="status" onclick= "hide()"><i class="fas fa-times"></i></button><hr><br>
+        <div class="link" ><a href="blog.html" target="_blank"><h4>Get some advice from our blogs</h4> </a></div>
+        <div class="link" ><a href="blog/cut-your-electricity-cost.html" target="_blank"><h5>Latest: Cut Your Electricity cost...</h5> </a></div>
+    </span>
+    </div>
     </section>
     <footer>
        
@@ -207,7 +212,9 @@
           </div>
       </div>
       <div class="copyright"> &copy; 2019 All rights researved | LEWISON BUILDERS AND CONTRACTORS | Designed by GISIT media </div>
+    
     </footer>
+    
     <script async>
      ScrollReveal().reveal('.gal', {delay:500});
      ScrollReveal().reveal('.gal1',{delay:750});
